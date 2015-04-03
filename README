@@ -1,0 +1,12 @@
+O hai!
+
+These are kubernetes templates for Oh-My-Vagrant.
+
+They are in a separate repository so they can be updated frequently :)
+
+Be sure not to run untrusted templates, as ERB contains executable code.
+
+Happy Hacking,
+James
+@purpleidea
+
