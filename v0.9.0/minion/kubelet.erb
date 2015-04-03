@@ -2,7 +2,6 @@
 # kubernetes kubelet (minion) config
 
 # The address for the info server to serve on (set to 0.0.0.0 or "" for all interfaces)
-# scollier
 KUBELET_ADDRESS="--address=0.0.0.0"
 
 # The port for the info server to serve on
@@ -12,5 +11,4 @@ KUBELET_PORT="--port=10250"
 KUBELET_HOSTNAME="--hostname_override=<%= me %>"
 
 # Add your own!
-# scollier
 KUBELET_ARGS="--auth_path=/var/lib/kubelet/auth"
